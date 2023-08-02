@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* main contaner */
+.main-container{
+    width: 100%;
+    height: 90vh;
+    background-color: aqua;
+    display: flex;
+}
+
+.left-container{
+    width: 20%;
+    height: 100%;
+    background-color: black;
+}
+#playlist-heading{
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+.components-container>hr{
+    margin-left: 30px;
+    width: 200px;
+    margin-top: 20px;
+}
+/* right contaner top portion */
+.right-container{
+    width: 80%;
+    height: 100%;
+    
+}
+.top-right{
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(to bottom right, #819C96, #3E4B48);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.top-right > img{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.top-right-child{
+    line-height: 1.5;
+    color: whitesmoke;
+}
+span{
+    font-weight: 600;
+}
+#play-list-type{
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: 600;
+}
+/* right container mid portion */
+.mid-right{
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(to bottom right, #2D3634, #1D2321);;
+}
+.mid-right-child-icons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+.mid-right-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+    
+}
+.mid-right-child-icons> a{
+    padding-right: 20px;
+    background: none;
+}
+.mid-right-child-icons> a:hover{
+    transition: all 1s ease-in-out;
+    transform: scale(1.1,1.1);
+}
+/* right container bottom portion */
+.bt-right{
+    width: 100%;
+    height: 320px;
+    background-color: #000000;
+}
+
+table{
+    color: whitesmoke;
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    text-align: justify;
+    border-bottom: 1px solid white;
+    font-size: 13px;
+    font-weight: 100;
+    background-image: linear-gradient(to bottom right, #2D3634, #1D2321)
+}
+td{
+    text-align: left;
+    background-color: #000000;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+tr :hover{
+    background-color: #212121;
+}
+td img, td p{
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+.bottom-container{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
